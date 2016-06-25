@@ -25,7 +25,7 @@
 					<%= g.label :phone %>
 				</div>
 				<div class="col-sm-8">
-					<%= g.text_field :phone, class: "form-control", placeholder: "Enter your CNIC Number", autofocus: true %>
+					<%= g.text_field :phone, class: "form-control", placeholder: "Enter your Phone Number", autofocus: true %>
 				</div>
 			</div>
 			<div class="form-group">
@@ -34,7 +34,7 @@
 					<%= g.label :city %>
 				</div>
 				<div class="col-sm-8">
-					<%= g.text_field :city, class: "form-control", placeholder: "Enter City Number", autofocus: true %>
+					<%= g.text_field :city, class: "form-control", placeholder: "Enter Your City Name", autofocus: true %>
 				</div>
 			</div>
 			<div class="form-group">
@@ -51,7 +51,7 @@
 					<%= g.label :address%> <br>
 				</div>
 				<div class="col-sm-8">
-					<%= g.text_area :address,rows: 10, class: "form-control", placeholder: "Description of worker", autofocus: true%>
+					<%= g.text_area :address,rows: 10, class: "form-control", placeholder: "Enter Your Full Address", autofocus: true%>
 				</div>
 			</div>
 
@@ -63,7 +63,7 @@
 			
 		<% end %>
 		<div class="col-xs-4 col-xs-offset-4">
-			[ <%= link_to "Cancel and Back to  Articles", workers_path %> ]
+			[ <%= link_to "Cancel and Back to  Home", root_path %> ]
 		</div>
 	</div>
 </div>
