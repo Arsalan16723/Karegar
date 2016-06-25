@@ -1,0 +1,9 @@
+<% @workers.each do |worker| %>
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2">
+			<div class="well well-lg">
+					<%= link_to worker.name, worker_path(worker) %>
+			</div>
+		</div>
+	</div>
+<% end %>
